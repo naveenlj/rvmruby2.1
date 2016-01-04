@@ -25,6 +25,8 @@ curl -sSL https://rvm.io/mpapis.asc | sudo gpg2 --import -
  
 curl -L get.rvm.io | bash -s stable
 
+sleep 5
+
 source /etc/profile.d/rvm.sh
 
 rvm reload
