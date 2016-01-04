@@ -50,3 +50,6 @@ echo " updating ruby "
 gem update
 
 gem update --system
+
+source /etc/profile.d/rvm.sh
+
